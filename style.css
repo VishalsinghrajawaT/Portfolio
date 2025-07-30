@@ -163,7 +163,6 @@ section {
   position: relative;
 }
 
-
 .project-options {
   display: none;
   flex-direction: column;
@@ -239,7 +238,9 @@ footer {
 
 .footer-social-icons {
   display: flex;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .footer-social-icons img {
@@ -268,12 +269,14 @@ footer {
 
 @media screen and (max-width: 768px) {
   .project-grid {
-    grid-template-columns: repeat(2, 4fr);
+    grid-template-columns: 1fr;
   }
 
   .nav-links {
     /* display: none; */
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
   }
   .social-icons{
@@ -281,11 +284,14 @@ footer {
   }
 
   .footer-content {
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
   }
 
   .footer-left div {
+    justify-content: center;
+  }
+    .footer-social-icons {
     justify-content: center;
   }
 }
