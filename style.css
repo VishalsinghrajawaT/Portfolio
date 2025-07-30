@@ -268,7 +268,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .project-grid {
-    grid-template-columns: repeat(2, 10fr);
+    grid-template-columns: repeat(1, 10fr);
   }
 
   .nav-links {
