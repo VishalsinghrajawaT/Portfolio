@@ -268,13 +268,16 @@ footer {
 
 @media screen and (max-width: 768px) {
   .project-grid {
-    grid-template-columns: repeat(1, 10fr);
+    grid-template-columns: repeat(3, 10fr);
   }
 
   .nav-links {
     /* display: none; */
     flex-direction: row;
     gap: 1rem;
+  }
+  .social-icons{
+    display: none;
   }
 
   .footer-content {
