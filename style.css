@@ -265,24 +265,20 @@ footer {
   transform: translateY(0);
 }
 
-@media screen and (max-width: 1024px) {
-  .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 @media screen and (max-width: 768px) {
   .project-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 10fr);
   }
 
   .nav-links {
-    flex-direction: column;
+    /* display: none; */
+    flex-direction: row;
     gap: 1rem;
   }
 
   .footer-content {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
