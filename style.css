@@ -280,7 +280,7 @@ footer {
     /* display: none; */
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
   }
   .social-icons{
@@ -289,8 +289,8 @@ footer {
 
   .footer-content {
     flex-direction: column;
-    text-align: center;
-    margin-left: 400px;
+    /* text-align: center; */
+    margin-left: 400px
   }
 
   .footer-left div {
