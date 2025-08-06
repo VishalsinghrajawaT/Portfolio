@@ -290,7 +290,7 @@ footer {
   .footer-content {
     flex-direction: column;
     /* text-align: center; */
-    margin-left: 300px
+    /* margin-left: 300px */
   }
 
   .footer-left div {
