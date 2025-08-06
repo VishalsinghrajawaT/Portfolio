@@ -142,7 +142,7 @@ section {
 }
 
 .project-grid {
-  display: flex;
+  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 5fr);
   gap: 3rem;
@@ -156,6 +156,7 @@ section {
 
 
 .project-card {
+  display: flex;
   background: #1a1a1a;
   padding: 5rem;
   border-radius: 1rem;
