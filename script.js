@@ -12,7 +12,7 @@ class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
     this.y = Math.random() * canvas.height;
-    this.radius = Math.random() * 4 + 1;
+    this.radius = Math.random() * 3 + 1;
     this.dx = (Math.random() - 0.5) * 0.5;
     this.dy = (Math.random() - 0.5) * 0.5;
   }
@@ -106,4 +106,3 @@ const navLinks = document.querySelector(".nav-links");
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
-
