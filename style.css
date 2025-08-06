@@ -270,7 +270,7 @@ footer {
 @media screen and (max-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr;
-    margin-left: 150px;
+    margin-left: 550px;
   }
 
   .nav-links {
